@@ -1,7 +1,7 @@
 # plist - A pure Go property list transcoder [![coverage report](https://gitlab.howett.net/DHowett/plist/badges/master/coverage.svg)](https://gitlab.howett.net/DHowett/plist/commits/master)
 ## INSTALL
 ```
-$ go get howett.net/plist
+$ go get github.com/singular-labs/go-plist
 ```
 
 ## FEATURES
@@ -11,7 +11,7 @@ $ go get howett.net/plist
 ```go
 package main
 import (
-	"howett.net/plist"
+	"github.com/singular-labs/go-plist"
 	"os"
 )
 func main() {
